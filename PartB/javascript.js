@@ -141,4 +141,4 @@ L.easyButton( '<i class="material-icons">info</i>', function(){
 }, {position: 'topright'}).addTo(map);
 
 
-window.onload(alert("This is an interactive map which allows you to draw points, lines, and polygons, and submit additional information about these inputs in a form."));
+window.onload(alert("This is an interactive map which allows you to draw points and polygons, and submit additional information about these inputs in a form."));
