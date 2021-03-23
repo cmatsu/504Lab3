@@ -33,12 +33,12 @@ fetch(urlGeoJSON + sqlQuery)
     });
 new L.Control.Draw({
     draw : {
-        polygon : true,
+        polygon : false,
         polyline : false,
         rectangle : false,     // Rectangles disabled
         circle : false,        // Circles disabled
-        circlemarker : false,  // Circle markers disabled
-        marker: true
+        circlemarker : true,  // Circle markers disabled
+        marker: false
     },
     edit : {
         featureGroup: drawnItems
